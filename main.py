@@ -1,9 +1,3 @@
-from colorama import init, Fore
-from threading import Thread, Lock
-import requests
-import json
-
-
 go = False
 sold = 0
 
