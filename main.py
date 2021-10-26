@@ -154,10 +154,6 @@ def daily_500():
 
     return print(f'{Fore.LIGHTGREEN_EX}Claimed daily 500 tokens; Tokens: {Fore.LIGHTRED_EX + str(user.tokens)}')
 
-
-if __name__ == '__main__':
-    int(autoreset=True)
-
     lock = Lock()
 
     headers = {
